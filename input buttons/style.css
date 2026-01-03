@@ -1,0 +1,23 @@
+*{
+    display:block;
+    margin: 10px;
+    padding: 10px;
+    background-color: bisque;
+}
+.reset{
+    margin-left: 500px;
+}
+#check:checked{
+    transform: scale(5);
+}
+#pass:hover{
+    color: aquamarine;
+    background-color: blueviolet;
+}
+.reset:hover{
+    background-color: chartreuse;
+    cursor: crosshair;
+}
+.submit:hover{
+    cursor: grab;
+}
