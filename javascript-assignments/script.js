@@ -1,5 +1,10 @@
-let number = prompt("Enter a number:");
-for (let i = 1; i <= 10; i++) {
-    console.log(i * number);
-    
+let takeInput = prompt("please enter something:");
+let vowelCount = 0;
+let vowels = "aeiouAEIOU";
+for (let i = 0; i < takeInput.length; i++) {
+    if (vowels.includes(takeInput[i])) {
+        vowelCount++;
+    }
 }
+alert("Number of vowels: " + vowelCount);
+
